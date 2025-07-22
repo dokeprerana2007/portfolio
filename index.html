@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prerana Doke | Computer Engineering Student</title>
+  <link rel="stylesheet" href="style1.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-papA+5J6E5k+qH3PZP62F2+FXdHwUJvPKYFgZQ7P8w1KZ/JlEyXCUcKWT+M8vq/6O6Y6Gg0n2EaQMH1V9yUU0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <!-- Loader -->
+  <div id="loader">
+    <div class="spinner"></div>
+  </div>
+
+  <!-- Navbar -->
+  <header>
+    <div class="container nav-container">
+</h1>
+
+      <div class="logo"> 🙂 Prerana</div>
+      <nav class="nav" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#experience">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#process">Learning</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <div class="text-content" data-aos="fade-up">
+        <h2>Hello, I'm <span>Prerana Doke</span></h2>
+        <h1><span class="highlight">Computer Engineering Student</span></h1>
+        <p>
+          Diploma student currently learning computer engineering with a strong interest in web development, coding, and modern technologies.
+        </p>
+        <a href="resume.pdf" class="btn" download>Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Education Section -->
+  <section id="experience" data-aos="fade-up">
+    <div class="container">
+      <h2>Education</h2>
+      <p>Currently pursuing Diploma in Computer Engineering. Passionate about learning front-end and back-end development, exploring AI tools, and building real-world projects.</p>
+    </div>
+  </section>
+<hr class="section-divider" />
+
+  <!-- Skills Section -->
+  <section id="skills" data-aos="fade-up">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="skill-list">
+        <span class="skill">HTML5</span>
+        <span class="skill">CSS3</span>
+        <span class="skill">JavaScript (Basics)</span>
+        <span class="skill">C & C++ Programming</span>
+        <span class="skill">Python (Beginner)</span>
+        <span class="skill">Java (Beginner)</span>
+        <span class="skill">MySQL (Beginner)</span>
+        <span class="skill">Responsive Design</span>
+        <span class="skill">Canva & Figma</span>
+        <span class="skill">Git & GitHub</span>
+      </div>
+    </div>
+  </section>
+<hr class="section-divider" />
+
+  <!-- Learning Process Section -->
+  <section id="process" data-aos="fade-up">
+    <div class="container">
+      <h2>My Learning Process</h2>
+      <ol>
+        <li>Understand Basic Concepts in Programming</li>
+        <li>Practice Web Design Using HTML & CSS</li>
+        <li>Explore JavaScript & Front-End Tools</li>
+        <li>Learn Git and use GitHub for version control</li>
+        <li>Build Mini Projects to Apply Learning</li>
+        <li>Start Learning Full Stack with Node.js & MongoDB</li>
+        <li>Keep Improving with Online Courses & Practice</li>
+      </ol>
+    </div>
+  </section>
+<hr class="section-divider" />
+
+  <!-- Projects Section -->
+  <section id="portfolio" data-aos="fade-up">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-item">
+          <h3>Student Portfolio Website</h3>
+          <p>A personal portfolio website created using HTML, CSS, and basic JavaScript.</p>
+        </div>
+        <div class="project-item">
+          <h3>Calculator App</h3>
+          <p>A simple calculator created with HTML, CSS & JavaScript for basic operations.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<hr class="section-divider" />
+
+  <!-- Contact Section -->
+  <section id="contact" data-aos="fade-up">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/your-form-id" method="POST" onsubmit="return showSuccess()">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <p id="form-success" style="display:none; color: green; text-align: center; margin-top: 10px;">Thank you! Your message has been sent.</p>
+    </div>
+  </section>
+<hr class="section-divider" />
+ <!-- Footer -->
+<footer class="footer">
+  <div class="footer-social">
+    <!-- Custom LinkedIn Logo First -->
+    <a href="https://www.linkedin.com/in/prerana-doke" target="_blank">
+      <div class="linkedin-logo">in</div>
+    </a>
+
+
+    <!-- Other Icons -->
+     <a href="https://github.com/preranadoke" target="_blank" aria-label="GitHub Profile">
+  <svg class="github-logo" xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 0 16 16" width="20" aria-hidden="true" class="d-block">
+  <path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+  </div>
+
+  <ul class="footer-menu">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <p class="footer-copy">&copy; 2025 Prerana Doke. All rights reserved.</p>
+</footer>
+
+
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script>
+    AOS.init();
+
+    function showSuccess() {
+      document.getElementById('form-success').style.display = 'block';
+      return true;
+    }
+
+    window.addEventListener("load", function () {
+      document.getElementById("loader").style.display = "none";
+    });
+
+    // Hamburger toggle
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+    hamburger.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+      hamburger.classList.toggle('toggle');
+    });
+    document.querySelectorAll('.nav-links a').forEach(link =>
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        hamburger.classList.remove('toggle');
+      })
+    );
+  </script>
+</body>
+</html>
+
+
